@@ -1,6 +1,6 @@
 #!/usr/bin/python3
-
-""" Script that distributes an archive to your web servers using do_deploy"""
+"""Compress web static package
+"""
 from fabric.api import *
 from datetime import datetime
 from os import path
